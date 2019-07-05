@@ -1,0 +1,48 @@
+.titulo { font-size: 24px; }
+.subtitulo { font-size: 18px; }
+.conteudo {
+    margin-top: 46px; 
+}
+.altura {
+    min-height: 60px;
+}
+.altura-user {
+    min-height: 260px;
+}
+.imagem {
+    width: 200px;
+}
+
+
+.largura-usr-nav {
+    width: 170px;
+}
+.notvisible{
+    display: none;
+}
+
+
+section {
+    min-height: 2000px;
+}
+
+.especiais {
+}
+
+.pesquisa {
+	background-color: transparent;
+	color: white;
+
+}
+.pesquisa:focus{
+	color: #000;
+	background-color: #fff;
+}
+
+
+.w3-teal {
+	background-color: #009688;
+	color: #fff;
+}
+
+.w3-cor { background-color: #00635A  !important }

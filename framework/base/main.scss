@@ -1,0 +1,50 @@
+/* Importação do normalize */
+
+@import "normalize.scss";
+
+/* Html e body */
+html, body { font-family: verdana, sans-serif; font-size: 15px; line-height: 1.5; }
+html { overflow: hidden; }
+
+/* Alinhamentos */
+.hcw-left { float: left !important; }
+.hcw-right { float: right !important; }
+
+/* Containers e panels */
+.hcw-container, .hcw-panel { padding: 0.001em 16px; }
+.hcw-panel { margin-top: 16px; margin-bottom: 16px; }
+
+/* Margin */
+.hcw-margin { margin: 16px !important; }
+.hcw-margin-top { margin-top: 16px !important; }
+.hcw-margin-right { margin-right: 16px !important; }
+.hcw-margin-bottom { margin-bottom: 16px !important; }
+.hcw-margin-left { margin-left: 16px !important; }
+
+/* Padding */
+.hcw-padding-small { padding: 4px 8px !important; }
+.hcw-padding { padding: 8px 16px !important; }
+.hcw-padding-large { padding: 12px 24px  !important; }
+.hcw-padding-16 { padding-top: 16px !important; padding-bottom: 16px !important; }
+.hcw-padding-24 { padding-top: 24px !important; padding-bottom: 24px !important; }
+.hcw-padding-32 { padding-top: 32px !important; padding-bottom: 32px !important; }
+.hcw-padding-48 { padding-top: 48px !important; padding-bottom: 48px !important; }
+.hcw-padding-64 { padding-top: 64px !important; padding-bottom: 64px !important; }
+
+/* Bordas */
+.hcw-border { border: 1px solid #ccc !important; }
+
+/* Cards */
+.hcw-card, .hcw-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.hcw-card-4, .hcw-hover-shadown:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Botões */
+.hcw-button:hover { color: #000 !important; background-color: #ccc !important; }
+
+/* Transparencia, display none  e hover none*/
+.hcw-transparent, .hcw-hover-none:hover { background-color: transparent !important; }
+.hcw-hover-none:hover { box-shadow: none !important; }
