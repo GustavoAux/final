@@ -1,0 +1,24 @@
+{
+  "name": "projeto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoAux/final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoAux/final/issues"
+  },
+  "homepage": "https://github.com/GustavoAux/final#readme",
+  "devDependencies": {
+    "angular": "^1.7.8",
+    "jquery": "^3.4.1",
+    "w3-css": "^4.1.0"
+  }
+}

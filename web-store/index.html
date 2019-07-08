@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="EagleStore" ng-controller="EagleStoreCtrl">
+    <head>
+        <meta charset="utf-8">
+
+        <title></title>
+
+        <link rel="stylesheet" href="css/w3.css"/>
+        <link rel="stylesheet" href="css/estilo.css"/>
+
+        <script src="js/angular.min.js"></script>
+        <script src="js/escript.js"></script>
+        
+    </head>
+    <body >
+
+<header class="w3-top w3-bar w3-teal w3-container w3-padding ">
+    <div class="w3-padding-16 w3-display-container">
+        <div class="w3-display-left">
+            <a href="#home" class="w3-bar-item w3-button w3-dark-red">{{titulo}}</a>
+        </div>
+
+        <div class="w3-display-middle">
+            <a href="#home" class="w3-bar-item w3-button w3-dark-red">Início</a>
+            <a href="#destaques" class="w3-bar-item w3-button w3-dark-teal">Destaques</a>
+            <a href="#loja" class="w3-bar-item w3-button w3-dark-teal">Loja</a>
+            <a href="#blog" class="w3-bar-item w3-button w3-dark-teal">Blog</a>
+            <a href="#desenvolvedores" class="w3-bar-item w3-button w3-dark-teal">Desenvolvedores</a>
+            <a href="#sobre" class="w3-bar-item w3-button w3-dark-teal">Sobre</a>
+        </div>
+
+        <div class="w3-display-right" >
+            <a href="#" class="w3-bar-item w3-button w3-dark-teal" ng-click="trocaHoras()">{{horas}}</a>
+        </div>
+    </div>
+</header>
+
+
+<main class="w3-cell-row w3-margin-top">
+    <nav class="w3-teal w3-bar-block w3-margin-top w3-padding-16 w3-cell w3-cell-mobile w3-tamanho-esquerda w3-left">
+        <a href="{{'#'+remove(categoria)}}" class="w3-bar-item w3-button" ng-repeat="categoria in categorias">{{categoria}}</a>
+    </nav>
+    <section class="w3-cell w3-cell-mobile w3-margin-top w3-container w3-padding-16 w3-tamanho-direita">
+        <h3 class="w3-center">Inserir um novo pacote:</h3>
+
+        <form>
+            <label >
+                Diga o nome do pacote:
+            </label>
+            <input type="text" placeholder="Nome do pacote" class="w3-input"/>
+
+            <label>
+                Diga um titulo da descrição:
+            </label>
+            <input type="text" placeholder="Título da descrição" class="w3-input"/>
+
+            <label>
+                Diga um icone para o pacote: 
+            </label>
+            <input type="url" placeholder="Ícone do pacote" class="w3-input"/>
+
+            
+
+        </form>
+    </section>
+</main>
+
+    </body>
+</html>
